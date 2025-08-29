@@ -1,8 +1,6 @@
 package com.cybersoft.uniclub09.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.cache.annotation.EnableCaching;
 
@@ -17,5 +15,6 @@ public class Users {
     private String email;
     private String password;
 
+    @Column(name = "create_date")
     private LocalDateTime createdDate;
 }

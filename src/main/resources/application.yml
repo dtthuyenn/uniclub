@@ -10,4 +10,5 @@ spring:
     hibernate:
       ddl-auto: none
     show-sql: false
-
+jwt:
+  private-key: 35oKkpd4YgTm5Eq17FxL/T9LI7YgbQFWNygAbIioq7I=
